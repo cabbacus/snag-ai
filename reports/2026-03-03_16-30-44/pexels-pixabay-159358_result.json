@@ -1,0 +1,62 @@
+{
+  "sessionId": "773cac0f-60b1-4d9c-a75c-275a1eea9730",
+  "timestamp": "2026-03-03T11:01:37.868745+00:00",
+  "detections": [
+    {
+      "id": "9fe6b320-77a8-4383-b94e-69828359604b",
+      "aiDefectType": "exposed_rebar",
+      "finalDefectType": "exposed_rebar",
+      "description": "There are several exposed reinforcement bars protruding upward from the concrete.",
+      "boundingBox": {
+        "x": 0.03,
+        "y": 0.35,
+        "width": 0.1,
+        "height": 0.3
+      },
+      "confidence": 0.9,
+      "reviewState": "pending"
+    },
+    {
+      "id": "533ad772-81f4-4936-8fc3-baee5826c3c0",
+      "aiDefectType": "exposed_rebar",
+      "finalDefectType": "exposed_rebar",
+      "description": "More exposed rebar is visible at the edge of the construction area.",
+      "boundingBox": {
+        "x": 0.6,
+        "y": 0.25,
+        "width": 0.1,
+        "height": 0.2
+      },
+      "confidence": 0.9,
+      "reviewState": "pending"
+    },
+    {
+      "id": "7224484f-a9ed-4593-ba24-749bf890afb8",
+      "aiDefectType": "site_housekeeping",
+      "finalDefectType": "site_housekeeping",
+      "description": "Construction materials and debris are scattered across the site.",
+      "boundingBox": {
+        "x": 0.4,
+        "y": 0.45,
+        "width": 0.4,
+        "height": 0.25
+      },
+      "confidence": 0.85,
+      "reviewState": "pending"
+    },
+    {
+      "id": "4080e1ec-47c9-435f-849c-0dab0d77ec90",
+      "aiDefectType": "unsecured_ladder",
+      "finalDefectType": "unsecured_ladder",
+      "description": "A worker is using a ladder that may not be adequately secured.",
+      "boundingBox": {
+        "x": 0.1,
+        "y": 0.65,
+        "width": 0.15,
+        "height": 0.2
+      },
+      "confidence": 0.8,
+      "reviewState": "pending"
+    }
+  ]
+}

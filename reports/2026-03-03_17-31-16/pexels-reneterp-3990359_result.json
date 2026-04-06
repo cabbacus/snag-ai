@@ -1,0 +1,146 @@
+{
+  "sessionId": "33e8d6a2-2a80-4f7b-a620-1f11e0e2aad5",
+  "timestamp": "2026-03-03T12:02:22.861020+00:00",
+  "detections": [
+    {
+      "id": "2c1f2d35-8bac-4707-80ac-1e21efc1907a",
+      "aiDefectType": "unsecured_ladder",
+      "finalDefectType": "unsecured_ladder",
+      "description": "A wooden ladder is standing unsecured against the wall, increasing the risk of it falling over.",
+      "boundingBox": {
+        "x": 0.13,
+        "y": 0.23,
+        "width": 0.21,
+        "height": 0.54
+      },
+      "confidence": 0.98,
+      "reviewState": "pending"
+    },
+    {
+      "id": "1c64ab34-6050-4057-987f-e760897b6b82",
+      "aiDefectType": "unsecured_ladder",
+      "finalDefectType": "unsecured_ladder",
+      "description": "A second wooden ladder is leaning unsecured against the partition wall, posing a fall hazard.",
+      "boundingBox": {
+        "x": 0.36,
+        "y": 0.182,
+        "width": 0.12,
+        "height": 0.532
+      },
+      "confidence": 0.98,
+      "reviewState": "pending"
+    },
+    {
+      "id": "a1465fd1-0cef-4253-b78b-1a840e6c91ec",
+      "aiDefectType": "unsecured_ladder",
+      "finalDefectType": "unsecured_ladder",
+      "description": "A small stepladder is placed on the floor without being secured or footed.",
+      "boundingBox": {
+        "x": 0.462,
+        "y": 0.67,
+        "width": 0.138,
+        "height": 0.219
+      },
+      "confidence": 0.97,
+      "reviewState": "pending"
+    },
+    {
+      "id": "5b803064-2006-4fc9-9579-63264849a218",
+      "aiDefectType": "equipment_hazard",
+      "finalDefectType": "equipment_hazard",
+      "description": "Long metal spirit level is leaning against the wall without any support, which could easily fall over.",
+      "boundingBox": {
+        "x": 0.448,
+        "y": 0.11,
+        "width": 0.074,
+        "height": 0.677
+      },
+      "confidence": 0.96,
+      "reviewState": "pending"
+    },
+    {
+      "id": "7171c020-a662-4bca-b724-9c0a7a85681b",
+      "aiDefectType": "debris_waste",
+      "finalDefectType": "debris_waste",
+      "description": "There is visible construction debris and dust scattered across the floor in front of the stepladder.",
+      "boundingBox": {
+        "x": 0.36,
+        "y": 0.77,
+        "width": 0.27,
+        "height": 0.21
+      },
+      "confidence": 0.95,
+      "reviewState": "pending"
+    },
+    {
+      "id": "0a1c4110-fb50-450f-8907-5c28ba6918db",
+      "aiDefectType": "debris_waste",
+      "finalDefectType": "debris_waste",
+      "description": "Loose offcuts and debris can be seen scattered on the floor at the entrance to the other room.",
+      "boundingBox": {
+        "x": 0.76,
+        "y": 0.84,
+        "width": 0.165,
+        "height": 0.16000000000000003
+      },
+      "confidence": 0.92,
+      "reviewState": "pending"
+    },
+    {
+      "id": "54aca577-9efd-4966-8945-c9d2cf3be9e3",
+      "aiDefectType": "electrical_hazard",
+      "finalDefectType": "electrical_hazard",
+      "description": "Loose electrical cables are trailing across the floor, creating trip hazards throughout the room.",
+      "boundingBox": {
+        "x": 0.1,
+        "y": 0.78,
+        "width": 0.42,
+        "height": 0.18
+      },
+      "confidence": 0.96,
+      "reviewState": "pending"
+    },
+    {
+      "id": "5e0c1d81-5c65-4580-af03-16270b8b0de2",
+      "aiDefectType": "incomplete_work",
+      "finalDefectType": "incomplete_work",
+      "description": "The doorway has exposed framing and unfinished edges around the door, indicating incomplete finishing work.",
+      "boundingBox": {
+        "x": 0.69,
+        "y": 0.15,
+        "width": 0.304,
+        "height": 0.716
+      },
+      "confidence": 0.93,
+      "reviewState": "pending"
+    },
+    {
+      "id": "e0be6a03-70d1-47c4-bfa8-c76a647f3c22",
+      "aiDefectType": "floor_damage",
+      "finalDefectType": "floor_damage",
+      "description": "The floor at the doorway is missing covering and shows exposed, worn subfloor with possible remnants of adhesive or paint.",
+      "boundingBox": {
+        "x": 0.75,
+        "y": 0.61,
+        "width": 0.21,
+        "height": 0.224
+      },
+      "confidence": 0.91,
+      "reviewState": "pending"
+    },
+    {
+      "id": "fe1ec301-ee98-4d3a-9d18-3a68fe063350",
+      "aiDefectType": "site_housekeeping",
+      "finalDefectType": "site_housekeeping",
+      "description": "General poor housekeeping is observed with disorganized tools and materials left on the floor.",
+      "boundingBox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "confidence": 0.9,
+      "reviewState": "pending"
+    }
+  ]
+}

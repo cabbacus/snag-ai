@@ -1,0 +1,62 @@
+{
+  "sessionId": "2d6a8a4c-9767-4801-945b-319dfe7d72ec",
+  "timestamp": "2026-03-03T11:01:00.434884+00:00",
+  "detections": [
+    {
+      "id": "430ffc3e-509a-4210-a681-8e99fe06647d",
+      "aiDefectType": "exposed_rebar",
+      "finalDefectType": "exposed_rebar",
+      "description": "Multiple exposed rebars sticking up without caps or protection.",
+      "boundingBox": {
+        "x": 0.5,
+        "y": 0.3,
+        "width": 0.1,
+        "height": 0.3
+      },
+      "confidence": 0.9,
+      "reviewState": "pending"
+    },
+    {
+      "id": "82e6b306-d9d8-4e35-9fa8-3171b2f287ba",
+      "aiDefectType": "debris_waste",
+      "finalDefectType": "debris_waste",
+      "description": "Loose construction debris scattered across the site.",
+      "boundingBox": {
+        "x": 0.2,
+        "y": 0.7,
+        "width": 0.6,
+        "height": 0.2
+      },
+      "confidence": 0.85,
+      "reviewState": "pending"
+    },
+    {
+      "id": "375437d6-3dee-441c-bbae-bd3898a513ea",
+      "aiDefectType": "safety_hazard",
+      "finalDefectType": "safety_hazard",
+      "description": "Workers are near known fall hazards without visible fall protection.",
+      "boundingBox": {
+        "x": 0.55,
+        "y": 0.5,
+        "width": 0.3,
+        "height": 0.2
+      },
+      "confidence": 0.9,
+      "reviewState": "pending"
+    },
+    {
+      "id": "3e51a8d1-4e17-4767-b215-e3dd85a0a4f0",
+      "aiDefectType": "formwork_issue",
+      "finalDefectType": "formwork_issue",
+      "description": "Misalignment observed in the lower formwork structure.",
+      "boundingBox": {
+        "x": 0.1,
+        "y": 0.8,
+        "width": 0.2,
+        "height": 0.1
+      },
+      "confidence": 0.8,
+      "reviewState": "pending"
+    }
+  ]
+}

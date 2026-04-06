@@ -1,0 +1,132 @@
+{
+  "sessionId": "bfb678ae-11c8-4fb0-908b-0cca6a8c9485",
+  "timestamp": "2026-03-03T12:01:50.448557+00:00",
+  "detections": [
+    {
+      "id": "339923c4-b470-4bbe-b611-0278523cbe26",
+      "aiDefectType": "ceiling_damage",
+      "finalDefectType": "ceiling_damage",
+      "description": "Ceiling has large sections of missing plasterboard with exposed rafters and joists.",
+      "boundingBox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 0.23
+      },
+      "confidence": 0.99,
+      "reviewState": "pending"
+    },
+    {
+      "id": "8628f181-5ebe-4c9d-bf49-b9475a2aada5",
+      "aiDefectType": "ceiling_damage",
+      "finalDefectType": "ceiling_damage",
+      "description": "A blue tarp is hanging loosely from the exposed ceiling area, indicating incomplete ceiling work.",
+      "boundingBox": {
+        "x": 0.15,
+        "y": 0.0,
+        "width": 0.37,
+        "height": 0.39
+      },
+      "confidence": 0.93,
+      "reviewState": "pending"
+    },
+    {
+      "id": "7bb92bf4-d2e8-4499-ad95-8b3f80c95fec",
+      "aiDefectType": "wall_damage",
+      "finalDefectType": "wall_damage",
+      "description": "Wall plaster and paint are peeling and crumbling, with visible patch repairs across several wall areas.",
+      "boundingBox": {
+        "x": 0.0,
+        "y": 0.24,
+        "width": 1.0,
+        "height": 0.7
+      },
+      "confidence": 0.98,
+      "reviewState": "pending"
+    },
+    {
+      "id": "98da37e0-6eea-4863-8e45-39fb8c38e6b7",
+      "aiDefectType": "floor_damage",
+      "finalDefectType": "floor_damage",
+      "description": "Wooden flooring is damaged, stained, and uneven in several areas.",
+      "boundingBox": {
+        "x": 0.0,
+        "y": 0.8,
+        "width": 1.0,
+        "height": 0.19999999999999996
+      },
+      "confidence": 0.97,
+      "reviewState": "pending"
+    },
+    {
+      "id": "98322e6b-2a39-4b99-a916-457fdedae881",
+      "aiDefectType": "debris_waste",
+      "finalDefectType": "debris_waste",
+      "description": "Sweepings, dust, and small debris are scattered across the floor.",
+      "boundingBox": {
+        "x": 0.25,
+        "y": 0.87,
+        "width": 0.6,
+        "height": 0.1
+      },
+      "confidence": 0.95,
+      "reviewState": "pending"
+    },
+    {
+      "id": "6e13994a-e824-49a9-a76d-2486d534602d",
+      "aiDefectType": "site_housekeeping",
+      "finalDefectType": "site_housekeeping",
+      "description": "A broom and a container with implements are left unattended against the wall.",
+      "boundingBox": {
+        "x": 0.16,
+        "y": 0.7,
+        "width": 0.13,
+        "height": 0.22
+      },
+      "confidence": 0.92,
+      "reviewState": "pending"
+    },
+    {
+      "id": "42c895d4-4f52-4f1d-81b9-2313e4001e13",
+      "aiDefectType": "damp_water_damage",
+      "finalDefectType": "damp_water_damage",
+      "description": "Obvious brown damp/water stains are visible around the lower parts of the walls and near the window.",
+      "boundingBox": {
+        "x": 0.06,
+        "y": 0.24,
+        "width": 0.37,
+        "height": 0.6
+      },
+      "confidence": 0.96,
+      "reviewState": "pending"
+    },
+    {
+      "id": "0189f386-9fde-4567-a448-8525ba913cef",
+      "aiDefectType": "electrical_hazard",
+      "finalDefectType": "electrical_hazard",
+      "description": "Extension cord is running loosely along the floor, creating a trip hazard.",
+      "boundingBox": {
+        "x": 0.66,
+        "y": 0.75,
+        "width": 0.25,
+        "height": 0.1
+      },
+      "confidence": 0.91,
+      "reviewState": "pending"
+    },
+    {
+      "id": "05210574-1d35-4542-abb5-022190069a4e",
+      "aiDefectType": "wall_damage",
+      "finalDefectType": "wall_damage",
+      "description": "The area above the door is missing plaster, exposing substrate or backing material.",
+      "boundingBox": {
+        "x": 0.57,
+        "y": 0.24,
+        "width": 0.16,
+        "height": 0.09
+      },
+      "confidence": 0.93,
+      "reviewState": "pending"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "sessionId": "309028dc-af86-415b-8012-2486a6208d10",
+  "timestamp": "2026-03-03T12:02:03.371924+00:00",
+  "detections": [
+    {
+      "id": "9949b2f9-f806-4409-8537-d5da45432ff1",
+      "aiDefectType": "exposed_rebar",
+      "finalDefectType": "exposed_rebar",
+      "description": "Multiple sections of vertical reinforcement bars (rebar) are protruding upwards from unfinished concrete columns without any protective caps or coverings.",
+      "boundingBox": {
+        "x": 0.04,
+        "y": 0.44,
+        "width": 0.11,
+        "height": 0.21
+      },
+      "confidence": 0.98,
+      "reviewState": "pending"
+    },
+    {
+      "id": "adfb9ef3-b884-4641-8f33-d3589dc3ddb5",
+      "aiDefectType": "exposed_rebar",
+      "finalDefectType": "exposed_rebar",
+      "description": "A cluster of exposed vertical rebar is visible near the right side concrete column with no protective caps.",
+      "boundingBox": {
+        "x": 0.93,
+        "y": 0.46,
+        "width": 0.05,
+        "height": 0.21
+      },
+      "confidence": 0.97,
+      "reviewState": "pending"
+    },
+    {
+      "id": "e39e8cc9-f95d-4f5f-a8ec-b196ef144736",
+      "aiDefectType": "exposed_rebar",
+      "finalDefectType": "exposed_rebar",
+      "description": "Horizontal reinforcement bars are scattered and not properly stacked or tied down on the slab area creating a tripping hazard.",
+      "boundingBox": {
+        "x": 0.08,
+        "y": 0.18,
+        "width": 0.22,
+        "height": 0.3
+      },
+      "confidence": 0.94,
+      "reviewState": "pending"
+    },
+    {
+      "id": "7bc8a4dd-9f4a-4831-81ed-57b729fb13b5",
+      "aiDefectType": "unsecured_ladder",
+      "finalDefectType": "unsecured_ladder",
+      "description": "A worker is standing on an unsecured metal ladder open to a deep pit or shaft, without any visible stabilization or someone footing the ladder.",
+      "boundingBox": {
+        "x": 0.34,
+        "y": 0.75,
+        "width": 0.11,
+        "height": 0.22
+      },
+      "confidence": 0.99,
+      "reviewState": "pending"
+    },
+    {
+      "id": "72a5d956-d4e6-43f7-affa-b6333819d060",
+      "aiDefectType": "equipment_hazard",
+      "finalDefectType": "equipment_hazard",
+      "description": "Loose construction materials including scattered steel bars and wooden planks are left on the working surface, causing potential trip and fall hazards.",
+      "boundingBox": {
+        "x": 0.69,
+        "y": 0.08,
+        "width": 0.2,
+        "height": 0.24
+      },
+      "confidence": 0.92,
+      "reviewState": "pending"
+    },
+    {
+      "id": "1a2c2c3a-790a-4710-9fb9-43920ba9a7dd",
+      "aiDefectType": "debris_waste",
+      "finalDefectType": "debris_waste",
+      "description": "Waste material and debris are left scattered near the central area of the slab under construction.",
+      "boundingBox": {
+        "x": 0.58,
+        "y": 0.42,
+        "width": 0.13,
+        "height": 0.13
+      },
+      "confidence": 0.9,
+      "reviewState": "pending"
+    }
+  ]
+}

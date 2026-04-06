@@ -1,0 +1,76 @@
+{
+  "sessionId": "8a38ac53-2eb8-4caf-8e33-b7cc99756ef7",
+  "timestamp": "2026-03-03T11:03:25.205634+00:00",
+  "detections": [
+    {
+      "id": "7f2fe008-c8f5-45c8-8903-7b094efdec3d",
+      "aiDefectType": "exposed_rebar",
+      "finalDefectType": "exposed_rebar",
+      "description": "Exposed rebar sticking up from multiple columns without caps.",
+      "boundingBox": {
+        "x": 0.0,
+        "y": 0.1,
+        "width": 0.1,
+        "height": 0.4
+      },
+      "confidence": 0.95,
+      "reviewState": "pending"
+    },
+    {
+      "id": "5211d981-04c2-49bc-8e18-f7877518f515",
+      "aiDefectType": "exposed_rebar",
+      "finalDefectType": "exposed_rebar",
+      "description": "Loose rebar visible on the ground posing trip hazards.",
+      "boundingBox": {
+        "x": 0.4,
+        "y": 0.3,
+        "width": 0.2,
+        "height": 0.4
+      },
+      "confidence": 0.92,
+      "reviewState": "pending"
+    },
+    {
+      "id": "2f7be786-1d48-4a51-9a3c-eb63eb19185f",
+      "aiDefectType": "formwork_issue",
+      "finalDefectType": "formwork_issue",
+      "description": "Misaligned formwork with poor bracing visible at the top left.",
+      "boundingBox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.2,
+        "height": 0.2
+      },
+      "confidence": 0.88,
+      "reviewState": "pending"
+    },
+    {
+      "id": "15a55856-0246-4ba1-b5e5-0811352f2e11",
+      "aiDefectType": "safety_hazard",
+      "finalDefectType": "safety_hazard",
+      "description": "Unsecured ladder being used by a worker without someone footing it.",
+      "boundingBox": {
+        "x": 0.2,
+        "y": 0.6,
+        "width": 0.1,
+        "height": 0.3
+      },
+      "confidence": 0.9,
+      "reviewState": "pending"
+    },
+    {
+      "id": "12538525-4559-4b03-ae64-871c7234e645",
+      "aiDefectType": "site_housekeeping",
+      "finalDefectType": "site_housekeeping",
+      "description": "Debris and waste material scattered on the construction site floor.",
+      "boundingBox": {
+        "x": 0.5,
+        "y": 0.3,
+        "width": 0.3,
+        "height": 0.4
+      },
+      "confidence": 0.87,
+      "reviewState": "pending"
+    }
+  ]
+}

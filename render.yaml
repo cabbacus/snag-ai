@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: snagai-backend
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false        # set manually in Render dashboard — never committed
+      - key: FRONTEND_URL
+        sync: false        # set to Vercel deployment URL after frontend deploy
+      - key: PORT
+        value: 3001
+    healthCheckPath: /api/health
