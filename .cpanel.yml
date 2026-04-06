@@ -1,4 +1,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/mintbigm/snag-ai.mintbig.com
+    - /bin/rm -rf $DEPLOYPATH/*
     - /bin/cp -R * $DEPLOYPATH
